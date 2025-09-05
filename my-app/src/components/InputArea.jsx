@@ -30,7 +30,7 @@ const InputArea = () => {
     setStatus('');
 
     try {
-      const res = await fetch("https://mini-rag-1-f05u.onrender.com/embed-upload'", {
+      const res = await fetch("https://mini-rag-1-f05u.onrender.com/embed-upload", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
