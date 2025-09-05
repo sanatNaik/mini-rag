@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 import InputArea from "./components/InputArea"
 import ChatArea from "./components/ChatArea"
 import Citation from "./components/Citation"
