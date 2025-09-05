@@ -20,7 +20,7 @@ export const ChatProvider = ({ children }) => {
     setSources([]);
 
     try {
-      const res = await fetch("http://localhost:8000/query", {
+      const res = await fetch("https://mini-rag-1-f05u.onrender.com/query", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),

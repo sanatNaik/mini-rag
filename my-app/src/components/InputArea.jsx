@@ -9,7 +9,7 @@ const InputArea = () => {
   const handleReset = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:8000/delete_all/', {
+      const res = await fetch("https://mini-rag-1-f05u.onrender.com/delete_all/", {
         method: 'DELETE', // correct method
       });
 
@@ -30,7 +30,7 @@ const InputArea = () => {
     setStatus('');
 
     try {
-      const res = await fetch('http://localhost:8000/embed-upload', {
+      const res = await fetch("https://mini-rag-1-f05u.onrender.com/embed-upload'", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
