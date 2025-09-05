@@ -3,5 +3,6 @@ uvicorn
 python-dotenv
 openai
 requests
-pinecone-client
+pinecone
+
 
